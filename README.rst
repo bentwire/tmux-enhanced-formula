@@ -1,9 +1,8 @@
 ================
-template-formula
+tmux-enhanced-formula
 ================
 
-A saltstack formula that is empty. It has dummy content to help with a quick
-start on a new formula.
+A formula to install and configure tmux.  Configuration is completely controlled by pillar.
 
 .. note::
 
@@ -16,7 +15,7 @@ Available states
 .. contents::
     :local:
 
-``template``
+``tmux``
 ------------
 
-Installs the template package, and starts the associated template service.
+Installs and configures the tmux package.
